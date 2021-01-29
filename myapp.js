@@ -13,7 +13,7 @@ res.send( {
 "mobile": "2348136373911",
 "twitter": "@dave_da_CEO"  } } )
 })
-git push
+
 
 app.listen(port, () => {
 console.log( 'listening at http://localhost:${port}')
