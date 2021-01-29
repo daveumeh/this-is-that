@@ -13,18 +13,8 @@ res.send( {
 "mobile": "2348136373911",
 "twitter": "@dave_da_CEO"  } } )
 })
-app.post('/validate-rule', function (req, res))==>{
-  "rule": {
-    "field": "missions",
-    "condition": "gte",
-    "condition_value": 30
-  },
-  "data": {
-    "name": "James Holden",
-    "crew": "Rocinante",
-    "age": 34,
-    "position": "Captain",
-    "missions": 45
+app.post('/validate-rule', function (req, res))
+res.send( {
   }
 }
 )
