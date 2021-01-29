@@ -13,8 +13,7 @@ res.send( {
 "mobile": "2348136373911",
 "twitter": "@dave_da_CEO"  } } )
 })
-app.post('/validate-rule', function (req, res))
-res.send( {
+app.post('/validate-rule', function (req, res))==>{
   "rule": {
     "field": "missions",
     "condition": "gte",
