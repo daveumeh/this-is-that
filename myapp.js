@@ -16,14 +16,18 @@ res.send( {
 
 app.post('/validate-rule', function (req, res));
 res.send(
-  function (err, data, message) {
-  if (err)
-    console.log("error");
-  else
-    console.log("result", data);
+  function(message(errMessage)){
 
-  }
-)
+return {message, status: 'error', data:  null }
+
+}
+
+if (!req.body.data){
+  console.log('defined');
+}
+if (!req.body.rule){
+  console.log('defined');
+}
 
 
 app.listen(port, () => {
