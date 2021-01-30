@@ -14,20 +14,15 @@ res.send( {
 "twitter": "@dave_da_CEO"  } } )
 }) ;
 
-app.post('/validate-rule', function (req, res));
+app.post('/validate-rule', function () );
 res.send(
   function(message(errMessage)){
 
 return {message, status: 'error', data:  null }
 
 }
-
-if (!req.body.data){
-  console.log('defined');
-}
-if (!req.body.rule){
-  console.log('defined');
-}
+if (!req.body.data)
+if (!req.body.rule)
 
 
 app.listen(port, () => {
