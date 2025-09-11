@@ -1,0 +1,12 @@
+
+node_modules/
+platforms/
+plugins/
+hooks/
+*.apk
+*.keystore
+.idea/
+.vscode/
+.gradle/
+build/
+.DS_Store

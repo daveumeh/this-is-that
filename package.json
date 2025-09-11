@@ -1,0 +1,11 @@
+{
+  "name": "tree-growth-calculator-apk",
+  "version": "1.0.0",
+  "description": "Tree Growth Calculator Cordova App",
+  "scripts": {
+    "build-android": "cordova build android"
+  },
+  "devDependencies": {
+    "cordova": "^11.0.0"
+  }
+}
